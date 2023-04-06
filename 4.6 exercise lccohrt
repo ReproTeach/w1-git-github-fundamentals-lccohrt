@@ -1,0 +1,116 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "2ec607ed-8aeb-4c1d-8a8c-be67122e6d8e",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello World!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "13025a89-aae3-4ce2-a7e5-7962f2b4cb60",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "# Comm 160 DS\n",
+    "\n",
+    "## Thursday 4/6\n",
+    "\n",
+    "We are learning the reproducible research principles.\n",
+    "- transparency\n",
+    "- etc"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f251de0f-8f76-4f25-a0dc-e458ec383773",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "e556b34d-6a23-4654-ae15-38401d862c7e",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "test = np.array([1, 4, 6, 7])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "4c0fbbae-8fe4-4541-89d4-0edc09ec5f8a",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "type[array([1, 4, 6, 7])]"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type[test]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "91bb6909-cf93-4fcf-9222-5fa43bcf8556",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
